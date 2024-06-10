@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.banner img{
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+
+}
+.logopai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px ;
+}
+.texto_restaurante{
+    font-size: 15px;
+    font-family: Verdana;
+    text-align: justify;
+    padding: 15px
+    ;
+}
+
+nav {
+    background-color: #6d6b6be4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color:black;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    color: #a18041;
+}
+
+.rodape {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ece6e6;
+    
+}
+
+th {
+    padding: 17px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    border: 3px solid black;
+    padding: 15px;
+    background-color:#6d6b6be4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+td:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+        margin-top: 40px;
+        font-size: 40px;
+        text-align: center;
+        margin: 30px 0 10px 0;
+        color: black;
+        padding: 10px;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    color: black;
+    padding: 10px;
+}
+table{
+    padding: 15px;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    
+}
